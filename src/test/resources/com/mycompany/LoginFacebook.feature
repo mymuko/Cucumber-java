@@ -1,7 +1,7 @@
-Feature: Login into facebook with invalid credentials 
+Feature: CucumberJava
 
-  @login_page
-  Scenario: 
+Scenario: Login into facebook with invalid credentials 
+
     Given I open Facebook page
     And I fill "//*[@id='email']" field with "muko002@mailinator.com"
     And I fill "//*[@id='pass']" field with "Mukomuko"
